@@ -1,0 +1,61 @@
+/* Form container */
+form {
+    max-width: 400px;
+    margin: 32px auto;
+    padding: 30px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+  }
+  
+  /* Form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Form input fields */
+  input[type="text"] {
+    width: 92%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-size: 18px;
+  }
+  
+  /* Form input focus state */
+  input[type="text"]:focus {
+    border-color: #3498db;
+  }
+  
+  /* Form button */
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Form button hover state */
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    form {
+      max-width: 90%;
+    }
+  }
+  
